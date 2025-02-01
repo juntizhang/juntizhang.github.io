@@ -370,6 +370,34 @@ svg {
 }
 
 
+.news-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 15px;
+  background-color: var(--headerCOlor);
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* 文字 */
+.news-item .text {
+  font-size: 16px;
+  font-family: "Helvetica Neue";
+  font-weight: normal;
+  color: var(--headerFont);
+  line-height: 1;
+  display: inline-block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 10px; /* 添加左边外边距 */
+  margin-right: 5px; /* 添加右边外边距 */
+  letter-spacing: 0.2px;
+}
+
+
 .li6-box {
   display: flex;
   justify-content: space-between;
