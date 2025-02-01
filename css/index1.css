@@ -71,6 +71,35 @@
   margin-right: 20px;
 }
 
+.contact-info {
+  margin-top: 10px; /* 距离标题的间距 */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px; /* 按钮间距 */
+  align-items: center;
+  letter-spacing: 0.7px;
+  margin-bottom: 30px;
+}
+
+.contact-link {
+  text-decoration: none;
+  font-size: 16px;
+  margin-right: 8px;
+  letter-spacing: 0.7px;
+  display: flex;
+  align-items: center;
+}
+
+.contact-location {
+  font-size: 16px;
+}
+
+.contact-link i,
+.contact-location i {
+  margin-right: 8px; /* 让图标和文字之间增加 8px 间距 */
+  font-size: 18px; /* 让图标大小与文字更协调 */
+}
+
 /* 第二块 */
 
 .li2-box {
