@@ -369,6 +369,25 @@ svg {
   letter-spacing: 0.2px;
 }
 
+/* 让图片的外层包裹一个 div */
+.image-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+/* tag 样式 */
+.tag {
+  position: absolute;
+  font-family: "Arial";
+  background-color: #FF8181; /* 你可以换成其他颜色 */
+  color: white;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  font-weight: bold;
+  padding: 4.5px 8px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
 
 .news-item {
   display: flex;
